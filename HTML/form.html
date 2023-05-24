@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	<form>
+		<div>
+			<label for="time"> Enter Time </label> </br>
+		<input type="time" id="time" required>
+	    </div>
+	    <div>
+			<label for="week"> Enter week </label> </br>
+		<input type="week" id="week" required>
+	    </div>
+	    <div>
+			<label for="date"> Enter DOB </label> </br>
+		<input type="date" id="date" required>
+	    </div>
+	    <!-- Drop down list -->
+	    <p> Months
+	    <select name="Months_selected">
+	    	<option> January </option>
+	    	<option> February </option>
+	    	<option> March </option>
+	    	<option> April </option>
+	    	<option> May </option>
+	    	<option> June </option>
+	    	<option> July </option>
+	    	<option> August </option>
+	    	<option> September </option>
+	    	<option> October </option>
+	    	<option> November </option>
+	    	<option> December </option>
+	    </select>
+	</p>
+	<select name="Months_selected" multiple>
+	    	<option> January </option>
+	    	<option selected> February </option>
+	    	<option> March </option>
+	    	<option> April </option>
+	    	<option> May </option>
+	    	<option> June </option>
+	    	<option> July </option>
+	    	<option> August </option>
+	    	<option> September </option>
+	    	<option> October </option>
+	    	<option> November </option>
+	    	<option> December </option>
+	    </select>
+	</p>
+	    <!-- disable use lock a particular value by default input not changable -->
+		<div>
+			<label for="country"> Country </label> </br>
+		<input type="country" id="country" value="India" required disabled>
+	    </div>
+	    <div>
+			<label for="number"> Enter your Phone no. </label> </br>
+		<input type="tel" id="number" required placeholder="+91 xxxxxxxxxx"> 
+	    </div>
+	    <div>
+			<label for="email"> Enter your Email Id </label> </br>
+		<input type="email" id="email" required placeholder="abc@gmail.com">
+	    </div>
+	    </div>
+		<div>
+			<p> Gender </br>
+		<input type="radio" name="gender" value="male" checked> Male </br>
+		<input type="radio" name="gender" value="female"> Female </br>
+		<input type="radio" name="gender" value="other"> Other </br>
+	       </p>
+	    </div>
+	    <div>
+			<label for="url"> Enter URL </label> </br>
+		<input type="url" id="url" required placeholder="http://abc.com">
+	    </div>
+		<div>
+			<label for="username"> Enter Username</label> </br>
+		<input type="text" id="username" required>
+	    </div>
+	    <div>
+	    	<label for="password"> Enter Password </label> </br>
+		<input type="password" id="password" required placeholder="Abcd@123#$%/">
+	    </div>
+	    <div>
+	    	<p> Course Done </br>
+	    		<input type="checkbox" name="course" value="c++"> C++ </br>
+	    		<input type="checkbox" name="course" value="java" checked> Java </br>
+	    		<input type="checkbox" name="course" value="python"> Python </br>
+	    		<input type="checkbox" name="course" value="data Structure" checked> Data Structure </br>
+	    		<input type="checkbox" name="course" value="html"> HTML </br>
+	    	</p>
+	    </div>
+	    <div>
+			<label for="range"> Rate us </label> </br>
+		<input type="range" id="range" required min="1" max="5" step="1">
+	    </div>
+	    </div>
+		<div>
+			<label for="comments"> Comments</label> </br>
+		<input type="text" id="comments" required>
+	    </div>
+	    <div>
+		<input type="submit">
+	    </div>
+	    <p>
+	    Share your Experience </br>
+	    <textarea name="experience" rows="10" cols="30"></textarea></br>
+	    <input type="button" value="Button 1">
+	    <button type="button"> Button 2 </button>
+	    <button type="button"> <img src="best coding\Tag.png"> </button>
+	    </p>
+	    <input type="submit" value="submit"/>
+	    <button>submit1</button>
+	    <button type="submit">Submit2</button>
+
+	    
+	    <input-button>submit3<input-button>
+	    <submit>submit</submit>
+	</form>	
+</body>
+</html>
