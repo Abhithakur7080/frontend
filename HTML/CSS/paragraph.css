@@ -1,0 +1,49 @@
+#para1{
+    /* font-size: 30px;
+    color: black;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 40px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    text-decoration: underline; */
+    background-color: red;
+    display: block;
+}
+#para2{
+    /* font-size: 30px;
+    color: black;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 40px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    text-decoration: underline; */
+    background-color: blue;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+#div1{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: red;
+}
+#div2{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: blue;
+    box-sizing: content-box;
+}
+p::after{
+    background-image: url(particles-g5b4372416_1920.jpg);
+    width: 100px;
+    height: 100px;
+}

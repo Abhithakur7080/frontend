@@ -1,0 +1,16 @@
+p{
+	color: dimgray;
+	/* font-size: 30px; */
+}
+/* body{
+	font-family: cursive;
+} */
+h4{
+	text-transform: uppercase;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.cursive{
+	font-family: cursive;
+}

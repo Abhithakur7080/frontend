@@ -1,0 +1,73 @@
+/* first name of color */
+#div1{
+    height: 300px;
+    width: 300px;
+    background-color: #0000ff; /* using hexadecimal value */
+    border-width: 2px 4px 6px 8px;
+    border-style: solid;
+    border-color: red;
+    margin: 4px 10px;
+    padding: 5px; /*expand more */
+    /* similar as margin but margin in fixed value padding expands */
+    /*
+    margin: allside;
+    margin: 4px;
+    margin: top&bottom right&left;
+    margin: 4px 10px;
+    margin: top left&right bottom;
+    margin: 4px 10px 5px;
+    margin: top right bottom left;
+    margin: 4px 10px 5px 12px;
+     */
+     position: relative;
+}
+/* 
+range r --> 0 to 255
+range g --> 0 to 255
+range b --> 0 to 255
+ */
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(25, 126, 200); /* using rgb */
+    /* border-width: 5px;
+    border-style: double;
+    border-color: black; */
+    border: 5px double black;
+    margin-top: 4px;
+}
+/* a = alfa value */
+/* range a --> 0 to 1 */
+#div3{
+    height: 75%;
+    /* 75vh */
+    /* 4rem */
+    /* 100vw */
+    width: 75%;
+    background-color: rgba(25, 126, 200, 0.5); /*using rgba 'a' means opticity range form 0 to 1 */
+    border-width: 5px;
+    border-style: dotted;
+    border-color: black;
+    /* margin: auto; */
+    position: absolute;
+    top: 0px;
+}
+/* h : hue value
+s : saturation value
+l */
+#div4{
+    height: 50%;
+    width: 50%;
+    background-color: hsl(50, 80, 10); /* using hsl */
+    border-width: 5px;
+    border-style: dashed;
+    border-color: blue;
+    visibility: hidden;
+}
+/* same as hsla */
+#para1{
+    border: 4px solid red;
+}
+#para2{
+    border-left: 4px solid red;
+}
