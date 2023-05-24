@@ -1,0 +1,32 @@
+#container{
+    height: 400px;
+    width: auto;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+#container div{
+    height: 200px;
+    width: 200px;
+}
+#div1{
+    background-color: cyan;
+    /* order by default 0 */
+    flex-grow: 4;
+}
+#div2{
+    background-color: lightpink;
+    /* order: 1; */
+    flex-grow: 1;
+}
+#div3{
+    background-color: grey;
+    /* order: 5; */
+}
+#div4{
+    background-color: brown;
+}
+#div5{
+    background-color: blue;
+}
